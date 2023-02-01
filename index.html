@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="alura-logo" class="alura-logo">
+        </a>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="page-title">Guess Number</h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="Imersão Dev">
+        </div>
+        <div class="game-container">
+            <div class="game-menu">
+                <h2>Adivinhe o número!</h2>
+                <button id="play-btn">Jogar</button>
+            </div>
+            <div class="game-difficulty">
+                <h2>Selecione a dificuldade:</h2>
+                <button id="easy-btn" class="difficulty-btn" value="easy">Fácil</button>
+                <button id="normal-btn" class="difficulty-btn" value="normal">Médio</button>
+                <button id="hard-btn" class="difficulty-btn" value="hard">Difícil</button>
+            </div>
+            <div class="game">
+                <div class="game-log">
+                    <h3>Números anteriores</h3>
+                    <ol id="game-log"></ol>
+                </div>
+                <div class="game-main">
+                    <h2 id="main-label">Tentativas: <span id="tries-span">20</span></h2>
+                    <input type="number" name="main-input" id="main-input" placeholder="Tente você mesmo">
+                    <button id="sort-btn">Sortear</button>
+                    <button id="play-again-btn">Jogar Novamente</button>
+                </div>
+                <div class="game-hint">
+                    <h3>Dicas</h3>
+                    <ol id="game-hint"></ol>
+                </div>
+            </div>
+            <div class="game-win">
+                <h2>Você ganhou!</h2>
+                <p>O número secreto era: <span id="revealed-secret-number-span"></span></p>
+                <button id="return-to-menu-btn">Voltar ao Menu</button>
+            </div>
+        </div>
+    </main>
+    <footer>Desenvolvido por <a href="" target="_blank">Rafael Yu</a></footer>
+</body>
+</html>
