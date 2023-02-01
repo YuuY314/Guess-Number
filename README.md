@@ -2,7 +2,7 @@
 
 Um pequeno jogo de adivinhação que parece bem completo com algumas adições.
 
-Link para acessar: 
+Link para acessar: https://yuuy314.github.io/Guess-Number/
 
 CodePen: <https://codepen.io/YuuY314/pen/LYBgvav>
 
